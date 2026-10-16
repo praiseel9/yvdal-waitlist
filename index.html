@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>YVDAL — Become a founding member</title>
+<meta name="description" content="The next YVDAL, an AI medical agent for medical education, is almost here. Join the waitlist and become a founding member.">
+<meta property="og:title" content="YVDAL — Become a founding member">
+<meta property="og:description" content="The next YVDAL, an AI medical agent for medical education, is almost here. Join the waitlist and become a founding member.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0a0a12">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237c5cbf'/%3E%3Ctext x='32' y='46' font-size='40' font-weight='800' text-anchor='middle' fill='white' font-family='Arial'%3EY%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600&family=Syne:wght@800&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#0a0a12; --violet:#7c5cbf; --violet-deep:#5a3fa0; --lilac:#c4a8f0; --mist:#ede8f5; --gold:#e3c27a; --line:rgba(196,168,240,0.2); --soft:rgba(237,232,245,0.76); }
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html { background:var(--ink); }
+  body {
+    font-family:'Manrope', system-ui, sans-serif; color:var(--mist); background:var(--ink); min-height:100dvh; line-height:1.6;
+    padding:calc(44px + env(safe-area-inset-top,0px)) 22px calc(30px + env(safe-area-inset-bottom,0px));
+    background-image:radial-gradient(ellipse 90% 45% at 50% 0%, rgba(124,92,191,0.36), transparent 70%), radial-gradient(ellipse 60% 35% at 95% 100%, rgba(90,63,160,0.26), transparent 70%);
+    background-repeat:no-repeat;
+  }
+  main { max-width:440px; margin:0 auto; display:flex; flex-direction:column; align-items:center; }
+
+  .wordmark { display:flex; font-family:'Syne',sans-serif; font-weight:800; font-size:clamp(52px,19vw,88px); letter-spacing:-0.02em; line-height:1.1; }
+  .wordmark span { display:inline-block; padding:0 0.02em; color:#e9deff; opacity:0; animation:land 0.55s cubic-bezier(0.34,1.56,0.64,1) forwards; animation-delay:calc(var(--i) * 0.09s); }
+  @supports ((-webkit-background-clip:text) or (background-clip:text)) {
+    .wordmark span { background:linear-gradient(135deg,#fff 0%,#c4a8f0 55%,#fff 100%); -webkit-background-clip:text; background-clip:text; color:transparent; -webkit-text-fill-color:transparent; }
+  }
+  @keyframes land { 0%{opacity:0; transform:translateY(22px) scale(0.88); filter:blur(6px)} 70%{opacity:1; transform:translateY(-2px) scale(1.02); filter:blur(0)} 100%{opacity:1; transform:none; filter:blur(0)} }
+  .rule { height:1px; width:0; margin-top:14px; background:linear-gradient(90deg,transparent,var(--gold),#fff,var(--gold),transparent); animation:grow 0.7s cubic-bezier(0.16,1,0.3,1) forwards 0.55s; }
+  @keyframes grow { to { width:130px; } }
+
+  .body { width:100%; opacity:0; animation:arrive 0.6s ease forwards 0.95s; }
+  @keyframes arrive { from{opacity:0; transform:translateY(10px)} to{opacity:1; transform:none} }
+
+  h1, h2, h3 { font-family:'Cormorant Garamond', Georgia, serif; font-weight:700; letter-spacing:0; }
+  h1 { font-size:clamp(32px,9.5vw,42px); line-height:1.08; text-align:center; margin-top:26px; }
+  .lede { text-align:center; color:var(--soft); margin:14px auto 0; max-width:350px; font-size:15.5px; }
+
+  .badge { display:flex; align-items:center; justify-content:center; gap:8px; width:max-content; margin:0 auto 0; padding:7px 16px 7px 13px; border-radius:999px; font-size:12.5px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:var(--gold); background:rgba(227,194,122,0.09); border:1px solid rgba(227,194,122,0.4); }
+  .badge svg, .crown { width:17px; height:17px; fill:var(--gold); flex:none; }
+
+  .card {
+    margin-top:26px; padding:26px 22px 22px; border-radius:24px; border:1px solid transparent;
+    background:linear-gradient(160deg,rgba(32,24,52,0.94),rgba(14,11,24,0.96)) padding-box, linear-gradient(160deg,rgba(227,194,122,0.8),rgba(124,92,191,0.2) 45%,rgba(196,168,240,0.5)) border-box;
+    box-shadow:0 18px 50px rgba(0,0,0,0.5), 0 0 60px rgba(124,92,191,0.16);
+  }
+  .card h2 { font-size:27px; line-height:1.15; }
+  .card .sub { color:var(--soft); font-size:14.5px; margin:5px 0 20px; }
+  label { display:block; font-family:'UnifrakturCook','Times New Roman',serif; font-weight:700; font-size:20px; letter-spacing:0.02em; line-height:1.2; color:var(--gold); margin-bottom:6px; }
+  .field + .field { margin-top:14px; }
+  input[type=text], input[type=email] {
+    width:100%; padding:14px 16px; font:inherit; font-size:16px; color:#fff; background:rgba(255,255,255,0.04);
+    border:1px solid rgba(196,168,240,0.22); border-radius:13px; box-shadow:inset 0 1px 0 rgba(255,255,255,0.04); transition:border-color 0.2s, background 0.2s;
+  }
+  input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-text-fill-color:#fff; caret-color:#fff; border:1px solid rgba(196,168,240,0.22);
+    -webkit-box-shadow:0 0 0 1000px #1c1530 inset; box-shadow:0 0 0 1000px #1c1530 inset; transition:background-color 9999s ease-out 0s;
+  }
+  input::placeholder { color:rgba(237,232,245,0.36); }
+  input:focus { border-color:var(--gold); background:rgba(227,194,122,0.06); outline:none; }
+  input:focus-visible, button:focus-visible, a:focus-visible { outline:2px solid var(--gold); outline-offset:2px; }
+  .hp { position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden; }
+  button.primary {
+    position:relative; overflow:hidden; width:100%; margin-top:20px; padding:15px; border:0; border-radius:13px; cursor:pointer;
+    font-family:'Manrope',sans-serif; font-weight:600; font-size:16px; letter-spacing:0.02em; color:#fff;
+    background:linear-gradient(135deg,#8a67d6,var(--violet-deep)); box-shadow:0 8px 24px rgba(124,92,191,0.45), inset 0 1px 0 rgba(255,255,255,0.25); transition:transform 0.12s;
+  }
+  button.primary::after { content:''; position:absolute; top:0; left:-60%; width:40%; height:100%; background:linear-gradient(90deg,transparent,rgba(255,255,255,0.28),transparent); transform:skewX(-20deg); animation:sheen 4.5s ease-in-out infinite 2s; }
+  @keyframes sheen { 0%,60%{left:-60%} 100%{left:130%} }
+  button.primary:active { transform:scale(0.98); }
+  button.primary:disabled { opacity:0.65; cursor:default; }
+  .msg { min-height:20px; margin-top:12px; font-size:14px; text-align:center; color:#ff9d9d; }
+  .fine { margin-top:2px; font-size:12.5px; text-align:center; color:rgba(237,232,245,0.5); }
+
+  .done { display:none; text-align:center; padding:6px 0; }
+  .done .crown { width:30px; height:30px; margin-bottom:6px; }
+  .done p { color:var(--soft); margin-top:8px; font-size:15px; }
+  button.share { margin-top:18px; padding:12px 24px; border-radius:999px; cursor:pointer; font:inherit; font-weight:600; font-size:14.5px; color:var(--mist); background:transparent; border:1.5px solid var(--gold); }
+  button.share:active { background:rgba(227,194,122,0.14); }
+  .joined .formwrap { display:none; } .joined .done { display:block; }
+
+  .changes { margin-top:38px; display:grid; gap:22px; }
+  .changes div { padding-left:16px; border-left:2px solid var(--violet); }
+  .changes h3 { font-size:22px; line-height:1.2; }
+  .changes p { color:var(--soft); font-size:14.5px; margin-top:3px; }
+  .changes div:last-child { border-left-color:var(--gold); }
+
+  .still { margin-top:36px; text-align:center; font-size:13.5px; color:rgba(237,232,245,0.6); }
+  .still a { color:var(--lilac); }
+
+  /* Social: glowing glass tiles, like the reference */
+  .social { margin-top:40px; padding-top:26px; border-top:1px solid var(--line); text-align:center; }
+  .gothic { font-family:'UnifrakturCook', 'Times New Roman', serif; font-weight:700; }
+  .social h2.gothic { font-size:34px; font-weight:700; letter-spacing:0.01em; }
+  .tiles { display:flex; justify-content:center; gap:18px; margin-top:18px; padding-bottom:16px; }
+  .tile {
+    display:flex; align-items:center; justify-content:center; width:68px; height:68px; border-radius:21px; text-decoration:none;
+    background:linear-gradient(145deg,#1d1730,#0c0912); border:1px solid rgba(255,255,255,0.07);
+    box-shadow:0 12px 26px rgba(0,0,0,0.65), inset 0 1px 0 rgba(255,255,255,0.09); transition:transform 0.15s;
+  }
+  .tile:nth-child(2) { transform:translateY(14px); }
+  .tile:active { transform:scale(0.94); } .tile:nth-child(2):active { transform:translateY(14px) scale(0.94); }
+  .tile svg { width:32px; height:32px; }
+  .t-tt svg { filter:drop-shadow(0 0 7px rgba(37,244,238,0.55)); }
+  .t-x svg { filter:drop-shadow(0 0 7px rgba(255,255,255,0.5)); }
+  .t-ig svg { filter:drop-shadow(0 0 8px rgba(214,41,118,0.6)); }
+
+  .built { margin-top:34px; text-align:left; font-size:21px; color:rgba(237,232,245,0.82); line-height:1.2; }
+  .built small { display:block; font-size:15px; color:var(--gold); }
+
+  @media (prefers-reduced-motion:reduce) {
+    .wordmark span, .rule, .body { animation:none; opacity:1; transform:none; filter:none; }
+    .rule { width:130px; } button.primary::after { animation:none; display:none; }
+  }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <path id="ttp" d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0115.54 3h-3.09v12.4a2.592 2.592 0 01-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 004.3 1.38V7.3s-1.88.09-3.24-1.48z"/>
+  <linearGradient id="igg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#feda75"/><stop offset="0.35" stop-color="#fa7e1e"/><stop offset="0.65" stop-color="#d62976"/><stop offset="1" stop-color="#962fbf"/></linearGradient>
+  <symbol id="crown" viewBox="0 0 24 24"><path d="M3 8l4.5 4L12 5l4.5 7L21 8l-2 10H5L3 8zm2 12h14v2H5z"/></symbol>
+</defs></svg>
+<main>
+  <div class="wordmark" role="img" aria-label="YVDAL">
+    <span style="--i:0">Y</span><span style="--i:1">V</span><span style="--i:2">D</span><span style="--i:3">A</span><span style="--i:4">L</span>
+  </div>
+  <div class="rule"></div>
+
+  <div class="body" id="body">
+    <h1>The next YVDAL is almost here.</h1>
+    <p class="lede">Join now and you're more than a name on a list. You're a founding member, first through the door.</p>
+
+    <div class="card" style="position:relative">
+      <div class="formwrap">
+        <div class="badge"><svg><use href="#crown"/></svg>Founding members</div>
+        <h2 style="margin-top:16px">Claim your founding seat</h2>
+        <p class="sub">Ten seconds. One email, the day the doors open.</p>
+        <form id="form" novalidate>
+          <div class="field">
+            <label for="name">First name</label>
+            <input id="name" name="name" type="text" autocomplete="given-name" placeholder="e.g. Kuthulm" required>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="you@example.com" required>
+          </div>
+          <div class="hp" aria-hidden="true"><label>Leave empty <input type="text" id="hpf" name="zq_trap_7f3" tabindex="-1" autocomplete="off" data-lpignore="true" data-1p-ignore data-form-type="other"></label></div>
+          <button class="primary" id="btn" type="submit">Become a founding member</button>
+          <p class="msg" id="msg" role="alert" aria-live="polite"></p>
+          <p class="fine">Your email is only used to tell you when YVDAL opens.</p>
+        </form>
+      </div>
+      <div class="done" id="done" role="status">
+        <svg class="crown"><use href="#crown"/></svg>
+        <h2 id="doneTitle">Welcome, founding member.</h2>
+        <p>Your founding seat is reserved. We'll email you the moment the new YVDAL opens. Know a student who'd want in?</p>
+        <button class="share" id="share" type="button">Invite a friend</button>
+      </div>
+    </div>
+
+    <section class="changes" aria-label="What's changing">
+      <div><h3>One account, every device</h3><p>Sign in on your phone or laptop and pick up exactly where you stopped.</p></div>
+      <div><h3>Progress that's yours to keep</h3><p>Revision, streaks and study stats saved to your account, not trapped in one browser.</p></div>
+      <div><h3>Founding member status</h3><p>Join now and you're recognised as one of the originals, invited before everyone else.</p></div>
+    </section>
+
+    <p class="still">Already studying on YVDAL? It stays open at <a href="https://yvdal.vercel.app">yvdal.vercel.app</a> until the move.</p>
+
+    <section class="social">
+      <h2 class="gothic">Social</h2>
+      <div class="tiles">
+        <a class="tile t-tt" href="https://www.tiktok.com/@yvdal1" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg viewBox="0 0 24 24"><use href="#ttp" fill="#25f4ee" transform="translate(-0.7 -0.7)"/><use href="#ttp" fill="#fe2c55" transform="translate(0.7 0.7)"/><use href="#ttp" fill="#fff"/></svg>
+        </a>
+        <a class="tile t-x" href="https://x.com/yvdal001" target="_blank" rel="noopener" aria-label="X">
+          <svg viewBox="0 0 24 24" fill="#fff"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a class="tile t-ig" href="https://www.instagram.com/yvdal001" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#igg)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <p class="built gothic"><small>Built by</small>Praise El Opeseme Ileya</p>
+  </div>
+</main>
+
+<script>
+  // Signups are saved to the "waitlist" table in Supabase.
+  // The publishable key is public by design: row-level security only lets visitors add rows.
+  const SUPABASE_URL = 'https://tcgtcgapxdbmxfqngsyg.supabase.co';
+  const SUPABASE_KEY = 'sb_publishable_mWHhW-1Yi1uRffDFcypV3w_o2Ui0CVH';
+
+  const $ = id => document.getElementById(id);
+  const form = $('form'), msg = $('msg'), btn = $('btn'), body = $('body');
+
+  function showDone(name) {
+    $('doneTitle').textContent = name ? "Welcome, " + name + "." : "Welcome, founding member.";
+    body.classList.add('joined');
+  }
+  try { const saved = localStorage.getItem('yvdal_waitlist_name'); if (saved !== null) showDone(saved); } catch (e) {}
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    msg.textContent = '';
+    const name = $('name').value.trim(), email = $('email').value.replace(/[\s\u200B-\u200D\uFEFF]/g, '').replace(/[.,;]+$/, '');
+    if ($('hpf').value) { showDone(name); return; } // honeypot: bots only; look like success, save nothing
+    if (!name) { msg.textContent = 'Enter your first name.'; $('name').focus(); return; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { msg.textContent = 'Enter a valid email, like you@example.com.'; $('email').focus(); return; }
+
+    btn.disabled = true; btn.textContent = 'Claiming your seat…';
+    try {
+      const res = await fetch(SUPABASE_URL + '/rest/v1/waitlist', {
+        method:'POST',
+        headers:{ 'apikey':SUPABASE_KEY, 'Content-Type':'application/json', 'Prefer':'return=minimal' },
+        body:JSON.stringify({ name, email })
+      });
+      // 409 means this email is already on the list, which is fine for the visitor
+      if (!res.ok && res.status !== 409) throw new Error('bad response ' + res.status);
+      try { localStorage.setItem('yvdal_waitlist_name', name); } catch (e) {}
+      showDone(name);
+    } catch (err) {
+      msg.textContent = "Your seat wasn't saved. Check your connection, then tap the button again.";
+      btn.disabled = false; btn.textContent = 'Become a founding member';
+    }
+  });
+
+  $('share').addEventListener('click', async () => {
+    const data = { title:'YVDAL', text:"I'm a founding member of the next YVDAL, an AI medical agent for medical education.", url:location.href };
+    try {
+      if (navigator.share) await navigator.share(data);
+      else { await navigator.clipboard.writeText(data.url); $('share').textContent = 'Link copied'; }
+    } catch (e) {}
+  });
+</script>
+</body>
+</html>
